@@ -8,7 +8,7 @@ import { faFacebook, faInstagram, faPinterest, faTwitter, faYoutube } from '@for
 const Footer = () => {
     return (
         <div className='bg-[#FFF8F6] w-full'>
-            <div className=' w-full'>
+            <div className=' w-full' style={{marginTop:"100px"}}>
                 <img src={waveTop} alt="" />
             </div>
             <div className='lg:px-[100px] md:px-[60px] px-[30px] pt-[60px] pb-[30px] grid md:grid-cols-3 grid-cols-1 gap-[50px] w-full'>

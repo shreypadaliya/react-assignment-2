@@ -38,3 +38,8 @@
     display: none;
   }
 } */
+@media screen and (max-width: 680px) {
+  .controlehealth {
+    background-color: white;
+  }
+}
