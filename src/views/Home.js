@@ -2,7 +2,7 @@ import React from "react";
 
 // Pictures
 import waveBottum from "../assets/imgs/wave-bottum.png";
-import waveTop from "../assets/imgs/wave-top.png";
+// import waveTop from "../assets/imgs/wave-top.png";
 import air from "../assets/imgs/svgs/air.svg";
 import purse from "../assets/imgs/svgs/purse.svg";
 import moneyNote from "../assets/imgs/svgs/moneyNote.svg";
@@ -12,12 +12,12 @@ import Rectangle18 from "../assets/imgs/Rectangle18.png";
 import star from "../assets/imgs/svgs/star.svg";
 import emptyStar from "../assets/imgs/svgs/emptyStar.svg";
 import realReviewsImg from "../assets/imgs/realReviewsImg.png";
-import good4me1 from "../assets/imgs/good4me1.png";
-import good4me2 from "../assets/imgs/good4me2.png";
-import good4me3 from "../assets/imgs/good4me3.png";
-import good4me4 from "../assets/imgs/good4me4.png";
-import good4me5 from "../assets/imgs/good4me5.png";
-import good4me6 from "../assets/imgs/good4me6.png";
+// import good4me1 from "../assets/imgs/good4me1.png";
+// import good4me2 from "../assets/imgs/good4me2.png";
+// import good4me3 from "../assets/imgs/good4me3.png";
+// import good4me4 from "../assets/imgs/good4me4.png";
+// import good4me5 from "../assets/imgs/good4me5.png";
+// import good4me6 from "../assets/imgs/good4me6.png";
 import iron from "../assets/imgs/1 1.png";
 import slideshowp1 from "../assets/imgs/svgs/slideshowp1.svg";
 import slideshowp2 from "../assets/imgs/svgs/slidershowp2.svg";
@@ -300,7 +300,7 @@ const Home = () => {
         <div>
           <span className="text-[36px] font-medium ">SHOP ALL</span>
         </div>
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[30px] mt-[50px] mb-[60px]">
+        <div className="grid 2xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-[30px] mt-[50px] mb-[60px]">
           {shopAllData.map((item) => (
             <ShopAllCard data={item} />
           ))}
